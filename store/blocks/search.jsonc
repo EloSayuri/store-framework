@@ -38,8 +38,7 @@
       "width": "20%"
     },
     "children": [
-      "filter-navigator.v3",
-      "search-content"
+      "filter-navigator.v3"
     ]
   },
   "search-content": {
@@ -50,5 +49,8 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
-  }
+  },
+  "flex-layout.col#search" : {
+    "children" : ["search-content"]
+  },
  }
