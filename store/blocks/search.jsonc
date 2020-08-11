@@ -21,5 +21,77 @@
        "filter-navigator.v3",
        "search-fetch-more"
      ]
+  },
+  "breadcrumb.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "search-title.v2": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "total-products.v2": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "order-by.v2": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "search-fetch-previous": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "search-content": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "filter-navigator.v3": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
+  },
+  "search-fetch-more": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+     }
   }
  }
