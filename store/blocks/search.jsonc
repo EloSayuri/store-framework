@@ -21,9 +21,6 @@
     ]
   },
   "flex-layout.row#results": {
-    "props":{
-        "horizontalAlign": "right"
-    },
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"
@@ -41,10 +38,14 @@
       "width": "20%"
     },
     "children": [
-      "filter-navigator.v3"
+      "filter-navigator.v3",
+      "search-content"
     ]
   },
   "search-content": {
+    "props":{
+        "horizontalAlign": "right"
+    },
     "blocks": ["gallery", "not-found"]
   },
   "gallery": {
