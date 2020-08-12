@@ -70,7 +70,24 @@
       "props": {
           "orientation": "vertical"
       }
-  }
+  },
+  "menu-item#small-appliances": {
+    "props": {
+        "type": "custom",
+        "highlight": true,
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Small Appliances",
+            "text": "Small Appliances"
+        }
+    },
+    "children": [
+        "vtex.menu@2.x:submenu#small"
+    ]
+}
+
 }
 /*{
   "vtex.menu@2.x:menu#categories": {
