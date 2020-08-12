@@ -1,0 +1,28 @@
+{
+  "store.custom#landing": { 
+    "blocks": [
+      "image#landingbanner", 
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "src": "https://image.shutterstock.com/image-photo/digital-device-eletronic-networking-media-600w-1070423204.jpg",
+      "link": {
+        "url": "/small-appliances/coffee-makers"
+      } ,
+      "alt": "Eletronic",
+      "minWidth":"100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField":  "Blue Top Retro Camera"
+      }
+    }
+  }
+}
